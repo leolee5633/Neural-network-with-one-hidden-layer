@@ -7,13 +7,12 @@ In this repo, I will demonstrate the common routine to set up a one-hidden-layer
 + How to implement forward and backward propagation.
 
 # 1 - Packages
-First import all the packages that will be used during this task.
+Here are some useful packages that can be imported into the project.
 
 + [numpy](https://www.numpy.org) is the fundamental package for scientific computing with Python.
 + [sklearn](http://scikit-learn.org/stable/) provides simple and efficient tools for data mining and data analysis.
 + [matplotlib](http://matplotlib.org/) is a library for plotting graphs in Python.
-+ testCases provides some test examples to assess the correctness of my functions.
-+ planar_utils provide various useful functions used in this repo.
+
 
 # 2 - Dataset
 It's usually a good habit to get some visual idea of the dataset that we have in hand, which we can use matplotlib to do so. In particular, you might want to ask yourself the following questions:
@@ -22,15 +21,17 @@ It's usually a good habit to get some visual idea of the dataset that we have in
 + How do I get the shape of a numpy array? 
 
 # 3 - Logistic regression
-Before building a full neural network, it's not bad to first see how logistic regression performs on the problem concerned. We can use sklearn's built-in functions to train the model and then plot the decision boundary and print the accuracy. If the problem is not linearly separable, then logistic regression won't perform well. Hopefully a neural network can do better.
+Before building a full neural network, it's not bad to first see how logistic regression performs on the problem concerned. We can use sklearn's built-in functions to train the model and then plot the decision boundary and print the accuracy. If the problem is not linearly separable, then logistic regression won't perform well. We then place our hope on the neural network.
 
 # 4 - Neural Network model
 
-**The model can be depicted as**:
+**The model can be depicted as for example**:
 <img src="classification_kiank.png" style="width:400px;height:250px;">
+*(Image credit: Coursera)*
 
 **Or in terms of mathematical variables**:
 <img src="maths.png" style="width:500px;height:300px;">
+*(Image credit: Coursera)*
 
 
 **Remember**: The general methodology to build a Neural Network is to:
