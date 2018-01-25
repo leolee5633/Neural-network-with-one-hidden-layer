@@ -27,7 +27,7 @@ Before building a full neural network, it's not bad to first see how logistic re
 # 4 - Neural Network model
 
 **The model can be depicted as**:
-<img src="classification_kiank.png" style="width:600px;height:300px;">
+<img src="classification_kiank.png" style="width:400px;height:250px;">
 
 **Or in terms of mathematical variables**:
 <img src="maths.png" style="width:500px;height:300px;">
