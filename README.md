@@ -30,16 +30,8 @@ Before building a full neural network, it's not bad to first see how logistic re
 <img src="classification_kiank.png" style="width:600px;height:300px;">
 
 **Or in terms of mathematical variables**:
+<img src="maths.png" style="width:500px;height:300px;">
 
-For one example $x^{(i)}$:
-$$z^{[1] (i)} =  W^{[1]} x^{(i)} + b^{[1] (i)}\tag{1}$$ 
-$$a^{[1] (i)} = \tanh(z^{[1] (i)})\tag{2}$$
-$$z^{[2] (i)} = W^{[2]} a^{[1] (i)} + b^{[2] (i)}\tag{3}$$
-$$\hat{y}^{(i)} = a^{[2] (i)} = \sigma(z^{ [2] (i)})\tag{4}$$
-$$y^{(i)}_{prediction} = \begin{cases} 1 & \mbox{if } a^{[2](i)} > 0.5 \\ 0 & \mbox{otherwise } \end{cases}\tag{5}$$
-
-Given the predictions on all the examples, you can also compute the cost $J$ as follows: 
-$$J = - \frac{1}{m} \sum\limits_{i = 0}^{m} \large\left(\small y^{(i)}\log\left(a^{[2] (i)}\right) + (1-y^{(i)})\log\left(1- a^{[2] (i)}\right)  \large  \right) \small \tag{6}$$
 
 **Remember**: The general methodology to build a Neural Network is to:
     1. Define the neural network structure ( # of input units,  # of hidden units, etc). 
