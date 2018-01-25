@@ -34,6 +34,7 @@ Before building a full neural network, it's not bad to first see how logistic re
 
 
 **Remember**: The general methodology to build a Neural Network is to:
+
     1. Define the neural network structure ( # of input units,  # of hidden units, etc). 
     2. Initialize the model's parameters
     3. Loop:
